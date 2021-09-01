@@ -11,9 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Birch\Log.cpp" />
     <ClCompile Include="src\Birch\Application.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Birch\Log.h" />
     <ClInclude Include="src\Birch.h" />
     <ClInclude Include="src\Birch\Application.h" />
     <ClInclude Include="src\Birch\Core.h" />
@@ -66,6 +68,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>BR_PLATFORM_WINDOWS;BR_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Birch\vendor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -79,6 +82,8 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Birch\vendor\spdlog\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>BR_PLATFORM_WINDOWS;BR_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
