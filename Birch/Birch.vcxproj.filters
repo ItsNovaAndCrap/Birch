@@ -19,6 +19,9 @@
     <ClInclude Include="src\Birch\EntryPoint.h">
       <Filter>Birch</Filter>
     </ClInclude>
+    <ClInclude Include="src\Birch\Events\ApplicationEvent.h">
+      <Filter>Birch\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Birch\Events\Event.h">
       <Filter>Birch\Events</Filter>
     </ClInclude>
@@ -31,7 +34,7 @@
     <ClInclude Include="src\Birch\Log.h">
       <Filter>Birch</Filter>
     </ClInclude>
-    <ClInclude Include="src\Birch\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\brpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Birch\Application.cpp">
@@ -40,5 +43,6 @@
     <ClCompile Include="src\Birch\Log.cpp">
       <Filter>Birch</Filter>
     </ClCompile>
+    <ClCompile Include="src\brpch.cpp" />
   </ItemGroup>
 </Project>

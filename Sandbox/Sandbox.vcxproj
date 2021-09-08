@@ -80,7 +80,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>BR_PLATFORM_WINDOWS;BR_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\dev\Birch\Birch\vendor\spdlog\include;C:\dev\Birch\Birch\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Birch\vendor\spdlog\include;..\Birch\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -136,7 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Birch\Birch.vcxproj">
-      <Project>{4dd7e40c-b9eb-0cbe-826d-b01dee4009ef}</Project>
+      <Project>{4DD7E40C-B9EB-0CBE-826D-B01DEE4009EF}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

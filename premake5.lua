@@ -19,6 +19,9 @@ project "Birch"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "brpch.h"
+	pchsource "Birch/src/brpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",
